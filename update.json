@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "package_name": "dev.aston.mygo.music.tv",
-  "version_code": 14,
-  "version_name": "0.1.4",
+  "version_code": 17,
+  "version_name": "0.1.5",
   "min_sdk": 23,
-  "size": 25482276,
-  "sha256": "be93d3ae6ddcb11ec396f199a9b2adcd65454f9a8a83047fd39925df115c14a9",
+  "size": 25482182,
+  "sha256": "ba651f28cf0b8de6209ce56babe41817c631ba659f88da1a6f17a02398d4b419",
   "certificate_sha256": "117dc57341c638a6f416ef256e0d9893bcdf7961acfc4c1b270b79bea8b6785f",
-  "download_url": "https://github.com/aston314/my-music-release/releases/download/v0.1.4/mygo-music-tv-0.1.4.apk",
-  "release_notes": "# My Music+ 0.1.4\n\n把喜欢的音乐，带到电视大屏。\n\n- 正式使用 My Music+ 名称和新图标；启动时加号轻轻转动，加载状态更直观。\n- 在插件市场发现、搜索、安装和更新在线音乐源；区分已安装与未安装，官方目录不可用时使用公共目录兜底。\n- 音乐搜索与插件搜索均支持手机扫码输入，减少遥控器打字。\n- 音乐源提供逐字时间时，歌词随演唱逐字高亮；普通同步歌词继续作为兜底。\n- 底部封面以圆形展示，播放时缓慢旋转；调整歌名、歌手、专辑间距及文字焦点宽度。\n- 优化卡片标题折行、歌单文字大小、海报外侧焦点间距与焦点移动；淡色主题排在深色主题之前。\n- 用户入口通过小点显示登录状态；支持开发入口与用户入口同色、同时显示或隐藏。\n- 设置新增版本更新，下载经校验后交给系统安装；优化更新区间距、扫码弹窗焦点和退出确认按钮。\n\n适用于 Android 电视与电视盒子，最低 Android 6.0。沿用原包名和发布签名，覆盖安装保留现有数据。旧版 0.1.3 需先手动安装本版本，之后可在“设置 → 版本更新”检查后续更新。\n\n音乐内容、登录方式、歌词、评论等能力由所选插件提供；部分内容需要对应平台账号或会员权限。网易云部分请求仍可能返回 -460，本版本不承诺消除平台风控。\n\n感谢 MyGo Music、EGOIST 及插件作者与贡献者。\n"
+  "download_url": "https://github.com/aston314/my-music-release/releases/download/v0.1.5/mygo-music-tv-0.1.5.apk",
+  "release_notes": "# My Music+ 0.1.5\n\n- 修复部分 Android 6 电视盒子上深色主题的方形焦点框。侧栏、设置和其他常用控件的焦点描边现在跟随控件圆角。\n- 优化侧栏方向键处理，减少歌单和海报较多时的布局读取。Android 上下键直接进入应用的焦点导航。\n\n适用于 Android 6.0 及更高版本。可在「设置 → 版本更新」检查更新，覆盖安装会保留原有设置和播放队列。\n"
 }
