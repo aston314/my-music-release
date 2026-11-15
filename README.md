@@ -1,13 +1,57 @@
-# My Music+
+<p align="center">
+  <img src="assets/app-icon.svg" width="112" height="112" alt="My Music+ 应用图标">
+</p>
 
-插件驱动的音乐播放器。
+<h1 align="center">My Music+</h1>
 
-本仓库提供经过校验的正式 Android APK、版本说明、更新清单，以及插件市场的公共目录缓存。应用源代码保存在私有仓库，不在这里发布。
+<p align="center">把喜欢的音乐，带到电视大屏。</p>
 
-[下载安装包](https://github.com/aston314/my-music-release/releases/latest)
+<p align="center">
+  <a href="https://github.com/aston314/my-music-release/releases/latest">下载 Android 版</a> ·
+  <a href="https://github.com/aston314/my-music-release/releases">查看版本记录</a>
+</p>
 
-国内网络使用应用内置下载线路，失败后自动尝试下一条及 GitHub 直连。首次安装带“版本更新”功能的新版本需手动覆盖安装；之后可在应用设置中检查更新。
+My Music+ 是一款为电视大屏打造的在线音乐播放器。通过插件选择喜欢的音乐源，用遥控器发现歌单、搜索歌曲、查看歌词，让客厅里的音乐更自在。
 
-每份 APK 均附有 update.json 和 SHA256SUMS.txt。请使用同一签名的正式包覆盖升级，以保留账号、音乐源和设置。
+## 先看一眼
 
-插件目录位于 [plugin-catalog.json](plugin-catalog.json)，由 GitHub Action 每 6 小时从 [MyGo Music 官方插件页面](https://music.egoist.dev/zh/plugins)同步一次，也可在 Actions 手动运行。同步失败或目录异常时保留上次成功的数据。目录用于 App 展示插件市场，插件包与版本仍由各自原仓库提供。
+[![My Music+ 界面预览，点击观看完整演示](assets/home.png)](https://raw.githubusercontent.com/aston314/my-music-release/main/assets/feature-tour.webm)
+
+**[▶ 观看完整演示](https://raw.githubusercontent.com/aston314/my-music-release/main/assets/feature-tour.webm)**
+
+发现音乐 → 浏览歌单 → 搜索 → 同步歌词与全屏歌词 → 插件市场 → 外观切换。
+
+演示使用示例内容，展示当前界面；实际体验以安装版本和所选音乐源为准。
+
+## 按自己的方式听音乐
+
+| 想做什么 | My Music+ 能帮你做什么 |
+| --- | --- |
+| 选择音乐源 | 在插件市场浏览、搜索、安装和更新插件，已安装的插件一眼可辨。 |
+| 找到喜欢的歌 | 搜索歌曲、歌手、专辑和歌单；也可以用手机扫码输入搜索内容。 |
+| 接着探索 | 从正在播放的歌曲进入歌手、专辑和歌曲列表，让发现音乐的过程连贯起来。 |
+| 跟着歌词听 | 同步显示歌词；音乐源提供逐字时间时，文字随演唱逐字高亮，也支持全屏欣赏。 |
+| 留住喜欢的音乐 | 喜欢歌曲、收藏专辑、管理歌单，查看歌曲评论。 |
+| 掌握播放节奏 | 查看播放队列，切换顺序、列表循环、单曲循环或随机播放，直接调整播放进度。 |
+| 换一种氛围 | 淡色、深色主题随心切换，支持简体中文与繁体中文，侧栏也可只显示图标。 |
+| 轻松用遥控器 | 面向大屏的清晰排版和焦点提示，在页面、列表、弹窗之间顺畅移动。 |
+
+不同音乐源提供的内容、登录方式和可用功能有所不同；部分内容需要对应平台的账号或会员权限。
+
+## 大屏上的聆听时刻
+
+| 歌词跟着音乐走 | 音乐源，由你选择 |
+| --- | --- |
+| ![播放与同步歌词](assets/lyrics.png) | ![插件市场](assets/plugins.png) |
+
+## 下载与更新
+
+从 **[最新版本](https://github.com/aston314/my-music-release/releases/latest)** 下载 APK，在 Android 电视或电视盒子上安装。
+
+已安装的用户可以前往 **设置 → 版本更新 → 检查更新**。覆盖安装可保留现有账号、音乐源和偏好设置。
+
+## 致谢 MyGo Music
+
+向 **[MyGo Music](https://github.com/egoist/mygo-music)** 致敬，感谢 **[EGOIST](https://github.com/egoist)** 及贡献者带来的优秀音乐播放器，以及围绕插件、在线音乐源和歌词体验的解决方案。My Music+ 在这些成果的基础上，继续探索适合电视大屏的聆听体验。
+
+也感谢每一位插件作者、测试者和使用者。
