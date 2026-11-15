@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="看看 My Music+ 如何在电视大屏上发现音乐、展示歌词、选择插件和切换主题。">
+  <title>My Music+ · 功能演示</title>
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f5f5f7;color:#1d1d1f;font:16px/1.6 system-ui,-apple-system,"PingFang SC","Microsoft Yahei",sans-serif}main{max-width:1200px;margin:auto;padding:40px 24px}header{display:flex;align-items:center;gap:14px;margin-bottom:24px}header img{width:52px;height:52px}h1{font-size:28px;line-height:1.2;margin:0}header p{margin:5px 0 0;color:#6e6e78}video{display:block;width:100%;aspect-ratio:16/9;background:#ececf1;border-radius:18px;box-shadow:0 12px 40px #0000000a}.chapters{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 16px}button,a{font:inherit}button,.link{border:0;border-radius:24px;padding:10px 18px;background:#e9e9ef;color:#38383e;cursor:pointer;text-decoration:none;display:inline-block}button:hover,.link:hover{background:#dddde5}button:focus-visible,a:focus-visible{outline:3px solid #e5324b;outline-offset:4px}.note,footer{font-size:14px;color:#6e6e78}.links{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.primary{background:#e5324b;color:white}.primary:hover{background:#c8233b}footer{border-top:1px solid #dedee5;padding-top:20px;margin-top:32px}footer a{color:#b9233b}a{color:inherit}@media(max-width:600px){main{padding:24px 14px}h1{font-size:24px}header p{font-size:14px}video{border-radius:10px}.chapters{gap:8px}button,.link{padding:9px 14px;font-size:14px}}
+  </style>
+</head>
+<body>
+<main>
+  <header><img src="assets/app-icon.svg" width="52" height="52" alt=""><div><h1>My Music+</h1><p>把喜欢的音乐，带到电视大屏。</p></div></header>
+  <video controls muted playsinline loop preload="metadata" poster="assets/home.png" aria-label="My Music+ 功能演示"><source src="assets/feature-tour.webm" type="video/webm">浏览器暂时无法播放，请<a href="assets/feature-tour.webm">下载演示</a>查看。</video>
+  <nav class="chapters" aria-label="选择演示内容"><button data-seek="0">发现音乐</button><button data-seek="6">搜索歌曲</button><button data-seek="9">同步歌词</button><button data-seek="18">插件市场</button><button data-seek="21.5">外观切换</button></nav>
+  <p class="note">演示使用示例内容，展示当前界面；实际体验以安装版本和所选音乐源为准。</p>
+  <div class="links"><a class="link primary" href="https://github.com/aston314/my-music-release/releases/latest">下载 Android 版</a><a class="link" href="https://github.com/aston314/my-music-release#readme">了解更多功能</a></div>
+  <footer>向 <a href="https://github.com/egoist/mygo-music">MyGo Music</a> 致敬，感谢 EGOIST 及贡献者在插件、在线音乐源与歌词体验上带来的解决方案。</footer>
+</main>
+<script>
+  const video=document.querySelector('video');
+  document.querySelectorAll('[data-seek]').forEach(button=>button.addEventListener('click',()=>{video.currentTime=Number(button.dataset.seek);video.play().catch(()=>{});}));
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches)video.play().catch(()=>{});
+</script>
+</body>
+</html>

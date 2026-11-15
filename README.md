@@ -15,9 +15,9 @@ My Music+ 是一款为电视大屏打造的在线音乐播放器。通过插件�
 
 ## 先看一眼
 
-[![My Music+ 界面预览，点击观看完整演示](assets/home.png)](https://raw.githubusercontent.com/aston314/my-music-release/main/assets/feature-tour.webm)
+[![My Music+ 界面预览，点击观看完整演示](assets/home.png)](https://aston314.github.io/my-music-release/)
 
-**[▶ 观看完整演示](https://raw.githubusercontent.com/aston314/my-music-release/main/assets/feature-tour.webm)**
+**[▶ 观看完整演示](https://aston314.github.io/my-music-release/)**
 
 发现音乐 → 浏览歌单 → 搜索 → 同步歌词与全屏歌词 → 插件市场 → 外观切换。
 
