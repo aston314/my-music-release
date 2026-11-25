@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source": "https://music.egoist.dev/zh/plugins",
-  "updatedAt": "2026-11-24T22:33:58.253219Z",
+  "updatedAt": "2026-11-25T08:46:45.959490Z",
   "entries": [
     {
       "repository": "sogud/mygo-music-netease",
@@ -49,19 +49,19 @@
       "description": "汽水音乐（Soda Music）source for MyGo Music"
     },
     {
+      "repository": "Amamiya23/mygo-music-qq-plugin",
+      "name": "qq-plugin",
+      "description": "MyGo Music plugin for QQ Music"
+    },
+    {
       "repository": "bitbyte404/mygo-music-kugou-lite",
       "name": "kugou-lite",
-      "description": "酷狗概念版 · MyGo Music 插件"
+      "description": "酷狗概念版 / 酷狗音乐 · MyGo Music 插件"
     },
     {
       "repository": "r0k1s-i/mygotify",
       "name": "mygotify",
       "description": "Spotify for MyGo Music, played from YouTube Music, with fuller lyrics via LRCLIB and NetEase."
-    },
-    {
-      "repository": "Amamiya23/mygo-music-qq-plugin",
-      "name": "qq-plugin",
-      "description": "MyGo Music plugin for QQ Music"
     },
     {
       "repository": "yunforge/mygo-music-download",
@@ -79,24 +79,9 @@
       "description": "Apple Music for MyGo Music on macOS, Windows and Linux, with Hi-Res Lossless"
     },
     {
-      "repository": "KirishimaRin/mygo-music-netease-cloud-music",
-      "name": "netease-cloud-music",
-      "description": "NetEase Cloud Music plugin for MyGo Music"
-    },
-    {
-      "repository": "xingkaixin/mygo-music-spotify",
-      "name": "spotify",
-      "description": "Spotify plugin for MyGo Music"
-    },
-    {
       "repository": "amqsy/mygo-music-bodian",
       "name": "bodian",
       "description": "波点音乐-QQ音乐简洁版 · MyGo Music 插件"
-    },
-    {
-      "repository": "yusgsysh/mygo-music-fnos-plugin",
-      "name": "fnos-plugin",
-      "description": "飞牛音乐 (fnOS Music) plugin for MyGo Music"
     },
     {
       "repository": "starriv/mygo-music-spotify",
@@ -109,19 +94,14 @@
       "description": "MyGo Music QQ 音乐插件：微信扫码登录、歌单、歌词与无损播放。仅用于学习与技术研究。"
     },
     {
-      "repository": "InkCitrus/mygo-music-apple-music",
-      "name": "apple-music",
-      "description": "Apple Music plugin for MyGo Music — subscriber web sign-in, library, word-by-word TTML lyrics, and full-track macOS remote playback"
+      "repository": "KirishimaRin/mygo-music-netease-cloud-music",
+      "name": "netease-cloud-music",
+      "description": "NetEase Cloud Music plugin for MyGo Music"
     },
     {
-      "repository": "benhaotang/mygo-music-Ampache",
-      "name": "Ampache",
-      "description": "mygo-music plugin for ampache server, e.g. Nextcloud Music 针对Ampache音乐服务器的Mygo Music插件"
-    },
-    {
-      "repository": "popeyelau/mygo-queyue",
-      "name": "mygo-queyue",
-      "description": "♪ 雀乐 - 一起记录独立音乐 indie.cn (原落网) for MyGo Music 插件"
+      "repository": "xingkaixin/mygo-music-spotify",
+      "name": "spotify",
+      "description": "Spotify plugin for MyGo Music"
     },
     {
       "repository": "VenusLuna/mygo-music-netease-plus",
@@ -129,24 +109,24 @@
       "description": "网易云音乐 Plus：MyGo Music 增强插件，支持稳定播放、万首大歌单、云盘、播客、评论互动及创建、删除、收藏、排序等完整歌单管理。"
     },
     {
+      "repository": "InkCitrus/mygo-music-apple-music",
+      "name": "apple-music",
+      "description": "Apple Music for MyGo Music on macOS, Windows, and Linux. Native lossless and AAC playback, six live stations, your library, and word-synced lyrics."
+    },
+    {
       "repository": "yiyiSmallti/mygo-qishui",
       "name": "mygo-qishui",
       "description": "MyGo 汽水音乐插件：Windows x64 / Apple Silicon Mac 自动准备组件，无需安装汽水客户端或 FFmpeg；支持扫码登录、音乐库、搜索、推荐电台与歌词，可选 Windows 小图标和任务栏播放条。"
     },
     {
-      "repository": "ZONGZI-000/zongzi-mygo-plugin-stable",
-      "name": "zongzi-mygo-plugin-stable",
-      "description": "没有简介。"
+      "repository": "yusgsysh/mygo-music-fnos-plugin",
+      "name": "fnos-plugin",
+      "description": "飞牛音乐 (fnOS Music) plugin for MyGo Music"
     },
     {
-      "repository": "LYJW131/mygo-music-emby-jellyfin",
-      "name": "emby-jellyfin",
-      "description": "Emby and Jellyfin for MyGo Music: your own server's music, lossless, with favorites, playlists and lyrics"
-    },
-    {
-      "repository": "nimrc/mygo-chensheng",
-      "name": "mygo-chensheng",
-      "description": "陈升 · MyGo Music 插件：收听 DaHuang-zju/sheng-night-audio 收录的陈升歌曲"
+      "repository": "popeyelau/mygo-queyue",
+      "name": "mygo-queyue",
+      "description": "♪ 雀乐 - 一起记录独立音乐 indie.cn (原落网) for MyGo Music 插件"
     },
     {
       "repository": "Guyu23/mygo-music-qishui",
@@ -154,9 +134,9 @@
       "description": "MyGo Music plugin for Soda Music with app QR sign-in, playlists, recommendations, listening modes, lyrics and history."
     },
     {
-      "repository": "louisgreen0726/mygo-music-pocket-casts",
-      "name": "pocket-casts",
-      "description": "Pocket Casts podcast source plugin for MyGo Music — subscriptions, search, show notes, HE-AAC playback"
+      "repository": "LYJW131/mygo-music-emby-jellyfin",
+      "name": "emby-jellyfin",
+      "description": "Emby and Jellyfin for MyGo Music: your own server's music, lossless, with favorites, playlists and lyrics"
     },
     {
       "repository": "hiSlowMo/neteaseXqqmusic",
@@ -164,29 +144,39 @@
       "description": "网易云 + QQ 音乐组合插件：双账号、统一搜索与本地混合歌单，适用于 MyGo Music。"
     },
     {
-      "repository": "Guyu23/mygo-music-qqmusic",
-      "name": "qqmusic",
-      "description": "MyGo Music plugin for QQ Music with QQ QR sign-in, playlists, recommendations, listening modes, lyrics and history."
+      "repository": "louisgreen0726/mygo-music-pocket-casts",
+      "name": "pocket-casts",
+      "description": "Pocket Casts podcast source plugin for MyGo Music — subscriptions, search, show notes, HE-AAC playback"
     },
     {
-      "repository": "specialhua/mygo-ximalaya",
-      "name": "mygo-ximalaya",
-      "description": "喜马拉雅插件，支持扫码登录、声音与专辑搜索、订阅和已购专辑浏览、云端收听历史及原生音频播放"
+      "repository": "ZONGZI-000/zongzi-mygo-plugin-stable",
+      "name": "zongzi-mygo-plugin-stable",
+      "description": "聚合多个音乐源的 MyGo Music音源插件。"
     },
     {
-      "repository": "biaobiaobiao108/mygo-yun-music",
-      "name": "mygo-yun-music",
-      "description": "MyGo Music plugin for a self-hosted YunLu Music server"
+      "repository": "nimrc/mygo-chensheng",
+      "name": "mygo-chensheng",
+      "description": "陈升 · MyGo Music 插件：收听 DaHuang-zju/sheng-night-audio 收录的陈升歌曲"
     },
     {
-      "repository": "LANMIN-X/mygo-plugin-ximalaya",
-      "name": "mygo-plugin-ximalaya",
-      "description": "Ximalaya[喜马拉雅] plugin for MyGo Music"
+      "repository": "AdkinsHan/mygo-local-lyrics",
+      "name": "mygo-local-lyrics",
+      "description": "A MyGo Music plugin that brings time-synced lyrics from LRCLib to your local music. It needs no account or API key, 一个为 MyGo Music 本地音乐带来时间同步歌词的插件。歌词来自 LRCLib：无需账号、无需 API Keyuses the synced LRC when LRCLib has one and falls back to plain lines when it doesn't, and caches every answer by track id"
     },
     {
       "repository": "Faye-bit/MyGo-Music-Netease-All",
       "name": "Netease-All",
       "description": "为 MyGo Music 带来独立网易云登录、个性化首页与音乐播放。"
+    },
+    {
+      "repository": "benhaotang/mygo-music-Ampache",
+      "name": "Ampache",
+      "description": "mygo-music plugin for ampache server, e.g. Nextcloud Music 针对Ampache音乐服务器的Mygo Music插件"
+    },
+    {
+      "repository": "specialhua/mygo-ximalaya",
+      "name": "mygo-ximalaya",
+      "description": "喜马拉雅插件，支持扫码登录、声音与专辑搜索、订阅和已购专辑浏览、云端收听历史及原生音频播放"
     },
     {
       "repository": "GYRYEZ/mygo-music-roamdial",
@@ -199,14 +189,24 @@
       "description": "连接 Subsonic / OpenSubsonic 音乐服务器，如 Navidrome、Gonic、Subsonic（需兼容 API 1.16.1）｜支持浏览、搜索、播放、收藏、歌单、歌词及内网 / 公网地址自动回退。"
     },
     {
+      "repository": "Guyu23/mygo-music-qqmusic",
+      "name": "qqmusic",
+      "description": "MyGo Music plugin for QQ Music with QQ QR sign-in, playlists, recommendations, listening modes, lyrics and history."
+    },
+    {
+      "repository": "biaobiaobiao108/mygo-yun-music",
+      "name": "mygo-yun-music",
+      "description": "MyGo Music plugin for a self-hosted YunLu Music server"
+    },
+    {
+      "repository": "LANMIN-X/mygo-plugin-ximalaya",
+      "name": "mygo-plugin-ximalaya",
+      "description": "Ximalaya[喜马拉雅] plugin for MyGo Music"
+    },
+    {
       "repository": "AceYKN/mygo-music-apple-podcasts",
       "name": "apple-podcasts",
       "description": "Apple Podcasts integration for MyGo Music: full account sync and subscriber playback. Currently in design."
-    },
-    {
-      "repository": "Arteiimis/mygo-music-netease",
-      "name": "netease",
-      "description": "网易云音乐插件 for MyGo Music：我的歌单里有《我喜欢的音乐》，每日推荐只有一个入口，和客户端本体一致"
     },
     {
       "repository": "Kagura114514/mygo-music-discord-presence-addon",
@@ -214,9 +214,9 @@
       "description": "An unofficial MyGo Music plugin that displays currently playing tracks as Discord Rich Presence on Windows."
     },
     {
-      "repository": "ZONGZI-000/zongzi-mygo-plugin-beta",
-      "name": "zongzi-mygo-plugin-beta",
-      "description": "没有简介。"
+      "repository": "TengYangTuoHai/mygo-music-navidrome",
+      "name": "navidrome",
+      "description": "Navidrome plugin for MyGo Music"
     },
     {
       "repository": "dddaniel1/mygo-plugin-kugou",
@@ -229,9 +229,9 @@
       "description": "葫芦音乐 · MyGo 聚合音源插件：云音乐 / B站 / 酷我 / QQ 音乐 / 播客 / 电台"
     },
     {
-      "repository": "AdkinsHan/mygo-local-lyrics",
-      "name": "mygo-local-lyrics",
-      "description": "A MyGo Music plugin that brings time-synced lyrics from LRCLib to your local music. It needs no account or API key, 一个为 MyGo Music 本地音乐带来时间同步歌词的插件。歌词来自 LRCLib：无需账号、无需 API Keyuses the synced LRC when LRCLib has one and falls back to plain lines when it doesn't, and caches every answer by track id"
+      "repository": "ZONGZI-000/zongzi-mygo-plugin-beta",
+      "name": "zongzi-mygo-plugin-beta",
+      "description": "没有简介。"
     },
     {
       "repository": "iko233/webdav4mygo",
@@ -244,9 +244,14 @@
       "description": "Kugou Lite (酷狗概念版) plugin for MyGo Music"
     },
     {
-      "repository": "dddaniel1/mygo-plugin-qqmusic",
-      "name": "mygo-plugin-qqmusic",
-      "description": "QQ音乐插件 for MyGo Music — search, charts, playlists, lyrics, QR sign-in"
+      "repository": "hhym/mygo-music-qingtingfm-main",
+      "name": "qingtingfm-main",
+      "description": "蜻蜓FM插件"
+    },
+    {
+      "repository": "GuMengSama/mygo-music-netease",
+      "name": "netease",
+      "description": "NetEase Cloud Music plugin for MyGo Music"
     },
     {
       "repository": "ivanxguo/mygo-music-bitrate",
@@ -264,9 +269,24 @@
       "description": "QQ音乐听书版插件"
     },
     {
-      "repository": "hhym/mygo-music-qingtingfm-main",
-      "name": "qingtingfm-main",
-      "description": "蜻蜓FM插件"
+      "repository": "Arteiimis/mygo-music-netease",
+      "name": "netease",
+      "description": "网易云音乐插件 for MyGo Music：我的歌单里有《我喜欢的音乐》，每日推荐只有一个入口，和客户端本体一致"
+    },
+    {
+      "repository": "xTreeRoot/mygo-music-bilibili",
+      "name": "bilibili",
+      "description": "哔哩哔哩独立信息源插件，支持山海 / MB / MyGo 桌面、iOS 与 Android，同一份纯 JavaScript 安装包。"
+    },
+    {
+      "repository": "dddaniel1/mygo-plugin-qqmusic",
+      "name": "mygo-plugin-qqmusic",
+      "description": "QQ音乐插件 for MyGo Music — search, charts, playlists, lyrics, QR sign-in"
+    },
+    {
+      "repository": "JadlionHD/discord-mygo-music",
+      "name": "discord-mygo-music",
+      "description": "Unofficial MyGo Music Discord Rich Presence plugin support"
     },
     {
       "repository": "liuxiaofengone/synology-DSAudio-mygo-music-plugin",
@@ -274,14 +294,39 @@
       "description": "适用于 MyGo Music 的群晖 Audio Station (DS Audio) 第三方媒体库插件"
     },
     {
-      "repository": "TengYangTuoHai/mygo-music-navidrome",
-      "name": "navidrome",
-      "description": "Navidrome plugin for MyGo Music"
+      "repository": "hhym/mygo-music-yunting-plugin",
+      "name": "yunting-plugin",
+      "description": "没有简介。"
     },
     {
       "repository": "jfeng018/mygo-music-lx-source",
       "name": "lx-source",
       "description": "把洛雪音乐（LX Music）自定义音源脚本接入 MyGo Music：多音源并发抢速、搜索、歌词与播放。Load LX Music custom source scripts in MyGo Music with multi-source racing, search, lyrics and playback."
+    },
+    {
+      "repository": "fcmfcm1999/mygo-music-kugou",
+      "name": "kugou",
+      "description": "Kugou Music plugin for MyGo Music"
+    },
+    {
+      "repository": "MaYunFei/mygo-music-feiniu",
+      "name": "feiniu",
+      "description": "飞牛音乐 (fnOS Music) source plugin for MyGo Music"
+    },
+    {
+      "repository": "hhym/mygo-music-kuwo-plugin",
+      "name": "kuwo-plugin",
+      "description": "Kuwo Music source plugin for MyGo Music — charts, playlists, artists and MP3 playback"
+    },
+    {
+      "repository": "hhym/mygo-music-ajmide-plugin",
+      "name": "ajmide-plugin",
+      "description": "没有简介。"
+    },
+    {
+      "repository": "Jimmyzzt/mygo-music-incompetech",
+      "name": "incompetech",
+      "description": "Incompetech royalty-free music plugin for MyGo Music"
     },
     {
       "repository": "GYRYEZ/mygo-music-douyin",
@@ -299,39 +344,14 @@
       "description": "Overcast plugin for MyGo Music: sign in once, your subscriptions play from RSS · 在 MyGo Music 里听 Overcast 订阅的播客"
     },
     {
-      "repository": "Jimmyzzt/mygo-music-incompetech",
-      "name": "incompetech",
-      "description": "Incompetech royalty-free music plugin for MyGo Music"
+      "repository": "jockcc/mygo-music-radio",
+      "name": "radio",
+      "description": "Internet radio for MyGo Music: 30,000 stations from Radio Browser, by genre, country and mood."
     },
     {
-      "repository": "qile222/mygo-music-qishui",
-      "name": "qishui",
-      "description": "MyGo Music plugin for 汽水音乐 / Qishui Music."
-    },
-    {
-      "repository": "sounfury/mygo-music-spotify-soloist",
-      "name": "spotify-soloist",
-      "description": "MyGo Music 的 Spotify Soloist 插件，为受 librespot #1649 影响、无法使用 librespot 的用户提供官方 Soloist 播放方案。支持后台启动与播放控制，当前为 Windows x64 预览版。"
-    },
-    {
-      "repository": "fcmfcm1999/mygo-music-kugou",
-      "name": "kugou",
-      "description": "Kugou Music plugin for MyGo Music"
-    },
-    {
-      "repository": "MaYunFei/mygo-music-feiniu",
-      "name": "feiniu",
-      "description": "飞牛音乐 (fnOS Music) source plugin for MyGo Music"
-    },
-    {
-      "repository": "Maker-World/mygo-music-migu",
-      "name": "migu",
-      "description": "咪咕音乐 Migu Music · MyGo Music Plugin"
-    },
-    {
-      "repository": "rocona/mygo-navidrome",
-      "name": "mygo-navidrome",
-      "description": "Navidrome plugin for MyGo Music: search and browse tracks, albums, artists and playlists, manage starred tracks, and stream or transcode audio via Subsonic/OpenSubsonic."
+      "repository": "hhym/mygo-music-qianqian-plugin",
+      "name": "qianqian-plugin",
+      "description": "千千音乐（原百度音乐，music.91q.com）音源"
     },
     {
       "repository": "moewah/mygo-music-emby",
@@ -339,14 +359,39 @@
       "description": "自用的 MyGo Music Emby 音源插件：连接自建 Emby 音乐库，提供每日推荐、收藏、艺术家、歌单管理、在线播放与同步歌词，无需修改 App 或额外程序。"
     },
     {
+      "repository": "rocona/mygo-navidrome",
+      "name": "mygo-navidrome",
+      "description": "Navidrome plugin for MyGo Music: search and browse tracks, albums, artists and playlists, manage starred tracks, and stream or transcode audio via Subsonic/OpenSubsonic."
+    },
+    {
+      "repository": "Maker-World/MygoMusicMigu",
+      "name": "MygoMusicMigu",
+      "description": "咪咕音乐 Migu Music · MyGo Music Plugin"
+    },
+    {
+      "repository": "TingnikuaiyuKeqing1120/gd-music-plugin",
+      "name": "gd-music-plugin",
+      "description": "GD音乐台 (GD Studio) music source plugin for MyGo Music - pure JS over the official developer API"
+    },
+    {
+      "repository": "hhym/mygo-music-plugins",
+      "name": "plugins",
+      "description": "MyGo Music（葫芦音乐 / 千千静听同源内核）第三方插件合集：世纪音乐、5nd音乐、凤梨音乐、优折美音乐、DJ024电音、汽车音乐网、猫耳FM、听书网"
+    },
+    {
+      "repository": "sounfury/mygo-music-spotify-soloist",
+      "name": "spotify-soloist",
+      "description": "MyGo Music 的 Spotify Soloist 插件，为受 librespot #1649 影响、无法使用 librespot 的用户提供官方 Soloist 播放方案。支持后台启动与播放控制，当前为 Windows x64 预览版。"
+    },
+    {
+      "repository": "lng205/mygo-music-netease-plus",
+      "name": "netease-plus",
+      "description": "Enhanced NetEase Cloud Music plugin for MyGo Music with -460 fix, user profiles, following lists, search suggestions and subscriptions"
+    },
+    {
       "repository": "andy8401/mygo-music-cnradio",
       "name": "cnradio",
       "description": "云听(radio.cn) 在线收音机插件 for MyGo Music — 920 个电台直播、按地区/类型浏览、搜索、节目回听"
-    },
-    {
-      "repository": "jockcc/mygo-music-radio",
-      "name": "radio",
-      "description": "Internet radio for MyGo Music: 30,000 stations from Radio Browser, by genre, country and mood."
     },
     {
       "repository": "e5u/mygo-taskbar-lyrics",
@@ -369,14 +414,14 @@
       "description": "You Own It — Wyy plugin for MyGo Music"
     },
     {
-      "repository": "andy8401/mygo-ximalaya-web-plugin",
-      "name": "mygo-ximalaya-web-plugin",
-      "description": "MyGo Music plugin for www.ximalaya.com web features: search, albums, rankings, categories, subscriptions and streaming."
-    },
-    {
       "repository": "eutleek/mygo-radio",
       "name": "mygo-radio",
       "description": "网络电台 · 161 个在线电台的 MyGo Music 插件 / Network Radio - 161 live internet radio streams for MyGo Music"
+    },
+    {
+      "repository": "andy8401/mygo-ximalaya-web-plugin",
+      "name": "mygo-ximalaya-web-plugin",
+      "description": "MyGo Music plugin for www.ximalaya.com web features: search, albums, rankings, categories, subscriptions and streaming."
     }
   ]
 }
